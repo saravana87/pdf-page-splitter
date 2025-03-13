@@ -54,7 +54,15 @@ def split_pdf_pages_fitz(pdf_path, output_dir):
 input_pdf = "./splitpdf/CLINICAL_HAEMATOLOGY_SAMPLES.pdf"  # Replace with your PDF file path
 output_directory = "splitpdf"  # Replace with your desired output directory
 split_pdf_pages_fitz(input_pdf, output_directory)
-```
+
+# PDF Table Extractor
+
+Extracts tables from PDFs to CSV using `tabula-py`.
+
+## Installation
+
+```bash
+pip install tabula-py pandas jpype1```
 
 ## License
 
